@@ -1,4 +1,6 @@
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-}
+/* app/globals.css */
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: #0070f3; text-decoration: none; }
+a:hover { text-decoration: underline; }
