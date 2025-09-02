@@ -1,8 +1,13 @@
+// app/page.tsx
 export default function Home() {
   return (
-    <main style={{ padding: 24 }}>
+    <main>
       <h1>Dashboard online 🎉</h1>
-      <p>โปรเจกต์นี้ deploy ผ่านแล้ว!</p>
+      <p>ระบบ deploy พร้อมใช้งานแล้ว</p>
+      <ul>
+        <li>ไปที่ <a href="/login">Login</a></li>
+        <li>หรือ <a href="/signup">Signup</a></li>
+      </ul>
     </main>
   );
 }
